@@ -1,0 +1,19 @@
+{
+  "name": "strangerBru",
+  "version": "0.0.1",
+  "description": "OpenCV based video object detection & classification.",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.12.0",
+    "eslint-config-hapi": "^11.1.0",
+    "eslint-plugin-hapi": "^4.1.0",
+    "opencv": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "video": "node index.js",
+    "lint": "eslint ."
+  },
+  "author": "Matt Boutet",
+  "license": "MIT"
+}
